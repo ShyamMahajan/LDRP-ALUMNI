@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>User Details</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style2.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12 HEADING">
+              <h1>this is Heading<h1>
+        </div>
+      </div>
+      <form class="form-horizontal text-center box" action="index.html" method="post">
+        <div class="row form-group">
+          <h2>Your profile Helps you Find the right Groups</h2>
+        </div>
+        <div class="row form-group">
+          <div class="col-sm-1"></div>
+          <label class="col-sm-2" for="College">College</label>
+          <input class="form-control col-sm-7" list="colleges" name="college" placeholder="">
+          <datalist id="colleges">
+            <option value="LDRP-ITR">
+          </datalist>
+        </div>
+        <div class="row form-group ">
+          <div class="col-sm-1"></div>
+          <label class="col-sm-2" for="Degrees">Degree</label>
+          <input class="form-control col-sm-7" list="degrees" name="college" placeholder="">
+          <datalist id="degrees">
+            <option value="Bachelor of Engineering - BE">
+          </datalist>
+        </div>
+        <div class="row form-group">
+          <div class="col-sm-1"></div>
+          <label class="col-sm-2" for="Streams">Specialization</label>
+          <input class="form-control col-sm-7" list="branches" name="branch" placeholder="">
+          <datalist id="branches">
+            <option value="Computer Engineering">
+            <option value="Information Technology">
+            <option value="Electronic and Communication">
+            <option value="Civil Engineering">
+            <option value="Electrical Engineering">
+            <option value="Mechanical Engineering">
+            <option value="Automobile Engineering">
+          </datalist>
+        </div>
+        <div class="row form-group">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-5">
+            <div class="row">
+              <label class="col-sm-5">Start Year</label>
+              <input class="form-control col-sm-5" list="syears" name="syears" placeholder="yyyy">
+              <datalist id="syears">
+                <option value="2012">
+                <option value="2013">
+                <option value="2014">
+                <option value="2015">
+                <option value="2016">
+                <option value="2017">
+              </datalist>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="row">
+              <label class="col-sm-4">Final Year</label>
+              <input class="form-control col-sm-5" list="fyears" name="fyears" placeholder="yyyy">
+              <datalist id="fyears">
+                <option value="2016">
+                <option value="2017">
+                <option value="2018">
+                <option value="2019">
+                <option value="2020">
+                <option value="2021">
+              </datalist>
+            </div>
+          </div>
+        </div>
+        <div class="row form-group">
+          <input type="submit" name="" value="CONTINUE">
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
