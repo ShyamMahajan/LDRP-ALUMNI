@@ -13,13 +13,19 @@ body{
    	border: 2px solid white;
     border-radius: 5px;
  }
+ .box h1{
+	text-align: center;
+ }
+ .box2 h3{
+	 text-align:center;
+ }
 .form-group{
   margin: 30px;
 }
 .form-group label{
   text-align: left;
 }
-.form-group input[type="submit" ]
+.form-group input[type="submit" ],.join
 {
   background: #2EBD3F;
   display: block;
@@ -50,3 +56,12 @@ body{
 .form-group input:focus{
 	color:black;
 }
+.box2{
+    margin-top: 20px;
+    background-color: black;
+    width: 78%;
+    margin-left: 10%;
+    background: azure;
+    border: 2px solid white;
+    border-radius: 5px;
+ }
